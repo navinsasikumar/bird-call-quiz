@@ -1,0 +1,144 @@
+{
+  "data": {
+    "calls": [
+      {
+        "name": "Pine Warbler",
+        "path": "files/130-131 a Chip Call Finder Fall Long High Pine.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "high",
+        "createdAt": "2018-05-17T00:32:40.335Z",
+        "updatedAt": "2018-05-17T00:32:40.335Z",
+        "id": 1
+      },
+      {
+        "name": "American Redstart",
+        "path": "files/130-131 b Chip Call Finder Fall Long High  American Redstart.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "high",
+        "createdAt": "2018-05-17T00:32:44.796Z",
+        "updatedAt": "2018-05-17T00:32:44.796Z",
+        "id": 2
+      },
+      {
+        "name": "Cerulean Warbler",
+        "path": "files/130-131 c Chip Call Finder Fall Long High  Cerulean.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "high",
+        "createdAt": "2018-05-17T00:33:22.678Z",
+        "updatedAt": "2018-05-17T00:33:22.678Z",
+        "id": 3
+      },
+      {
+        "name": "Bay-breasted Warbler",
+        "path": "files/130-131 d Chip Call Finder Fall Long High  Bay-breasted.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "high",
+        "createdAt": "2018-05-17T00:34:18.726Z",
+        "updatedAt": "2018-05-17T00:34:18.726Z",
+        "id": 4
+      },
+      {
+        "name": "Grace's Warbler",
+        "path": "files/130-131 f Chip Call Finder Fall Long Low  Grace's.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "low",
+        "createdAt": "2018-05-17T00:34:21.636Z",
+        "updatedAt": "2018-05-17T00:34:21.636Z",
+        "id": 5
+      },
+      {
+        "name": "Prairie Warbler",
+        "path": "files/130-131 g Chip Call Finder Fall Long Low  Prairie.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "low",
+        "createdAt": "2018-05-17T00:34:28.769Z",
+        "updatedAt": "2018-05-17T00:34:28.769Z",
+        "id": 6
+      },
+      {
+        "name": "Palm Warbler",
+        "path": "files/130-131 h Chip Call Finder Fall Long Low  Palm.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "low",
+        "createdAt": "2018-05-17T00:34:32.384Z",
+        "updatedAt": "2018-05-17T00:34:32.384Z",
+        "id": 7
+      },
+      {
+        "name": "Canada Warbler",
+        "path": "files/130-131 i Chip Call Finder Fall Long Low  Canada.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "low",
+        "createdAt": "2018-05-17T00:34:35.831Z",
+        "updatedAt": "2018-05-17T00:34:35.831Z",
+        "id": 8
+      },
+      {
+        "name": "Kentucky Warbler",
+        "path": "files/130-131 j Chip Call Finder Fall Long Low  Kentucky.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "low",
+        "createdAt": "2018-05-17T00:34:38.551Z",
+        "updatedAt": "2018-05-17T00:34:38.551Z",
+        "id": 9
+      }
+    ]
+  },
+  "schema": {
+    "calls": {
+      "name": {
+        "type": "string"
+      },
+      "path": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "direction": {
+        "type": "string"
+      },
+      "length": {
+        "type": "string"
+      },
+      "pitch": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "calls": {
+      "id": 9
+    }
+  }
+}
