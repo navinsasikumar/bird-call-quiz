@@ -1,14 +1,23 @@
-<%= call.name %>
-<!--<audio controls autoplay>-->
-  <!--<source src="<%= call.path %>"-->
-    <!--Your browser does not support the <code>audio</code> element.-->
-<!--</audio>-->
-<audio controls autoplay>
-  <source src="<%= call.path %>" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-<!--<audio-->
-    <!--src="/files/130-131 a Chip Call Finder Fall Long High Pine.mp3"-->
-      <!--autoplay>-->
-    <!--Your browser does not support the <code>audio</code> element.-->
-<!--</audio>-->
+<div>
+  <audio controls autoplay>
+    <source src="<%= call.path %>" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+<button id="show-answer">Show</button>
+<button id=next-question>Next</button>
+<div id="answer">
+  <%= call.name %>
+</div>
+
+
+<script>
+  $("#show-answer").click(function() {
+    $("#answer").show();
+  });
+  $("#next-question").click(function() {
+    $.get('/random', function() {
+      window.location = '/random';
+    });
+  });
+</script>
