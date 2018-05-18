@@ -99,6 +99,160 @@
         "createdAt": "2018-05-17T00:34:38.551Z",
         "updatedAt": "2018-05-17T00:34:38.551Z",
         "id": 9
+      },
+      {
+        "name": "Blackpoll Warbler",
+        "path": "files/130-131 e Chip Call Finder Fall Long High  Blackpoll.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "high",
+        "createdAt": "2018-05-18T18:41:25.779Z",
+        "updatedAt": "2018-05-18T18:41:25.779Z",
+        "id": 10
+      },
+      {
+        "name": "Kirtland's Warbler",
+        "path": "files/130-131 k Chip Call Finder Fall Long Low  Kirtland's.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "long",
+        "pitch": "low",
+        "createdAt": "2018-05-18T18:48:34.897Z",
+        "updatedAt": "2018-05-18T18:48:34.897Z",
+        "id": 11
+      },
+      {
+        "name": "Northern Parula",
+        "path": "files/130-131 l Chip Call Finder Fall Short High  Northern Parula.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "high",
+        "createdAt": "2018-05-18T18:49:12.600Z",
+        "updatedAt": "2018-05-18T18:49:12.600Z",
+        "id": 12
+      },
+      {
+        "name": "Tennessee Warbler",
+        "path": "files/130-131 m Chip Call Finder Fall Short High  Tennessee.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "high",
+        "createdAt": "2018-05-18T18:49:38.933Z",
+        "updatedAt": "2018-05-18T18:49:38.933Z",
+        "id": 13
+      },
+      {
+        "name": "Blue-winged Warbler",
+        "path": "files/130-131 n Chip Call Finder Fall Short High  Blue-winged.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "high",
+        "createdAt": "2018-05-18T18:50:43.598Z",
+        "updatedAt": "2018-05-18T18:50:43.598Z",
+        "id": 14
+      },
+      {
+        "name": "Golden-winged Warbler",
+        "path": "files/130-131 o Chip Call Finder Fall Short High  Golden-winged.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "high",
+        "createdAt": "2018-05-18T18:51:03.001Z",
+        "updatedAt": "2018-05-18T18:51:03.001Z",
+        "id": 15
+      },
+      {
+        "name": "Orange-crowned Warbler",
+        "path": "files/130-131 p Chip Call Finder Fall Short High  Orange-crowned.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "high",
+        "createdAt": "2018-05-18T18:51:29.637Z",
+        "updatedAt": "2018-05-18T18:51:29.637Z",
+        "id": 16
+      },
+      {
+        "name": "Hooded Warbler",
+        "path": "files/130-131 q Chip Call Finder Fall Short High  Hooded.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "high",
+        "createdAt": "2018-05-18T18:52:01.351Z",
+        "updatedAt": "2018-05-18T18:52:01.351Z",
+        "id": 17
+      },
+      {
+        "name": "Red-faced Warbler",
+        "path": "files/130-131 u Chip Call Finder Fall Short Low  Red-faced.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "low",
+        "createdAt": "2018-05-18T18:52:53.967Z",
+        "updatedAt": "2018-05-18T18:52:53.967Z",
+        "id": 18
+      },
+      {
+        "name": "Black-and-White Warbler",
+        "path": "files/130-131 r Chip Call Finder Fall Short Low  Black-and-white.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "low",
+        "createdAt": "2018-05-18T18:53:17.327Z",
+        "updatedAt": "2018-05-18T18:53:17.327Z",
+        "id": 19
+      },
+      {
+        "name": "Worm-eating Warbler",
+        "path": "files/130-131 s Chip Call Finder Fall Short Low  Worm-eating.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "low",
+        "createdAt": "2018-05-18T18:53:38.957Z",
+        "updatedAt": "2018-05-18T18:53:38.957Z",
+        "id": 20
+      },
+      {
+        "name": "Black-throated Blue Warbler",
+        "path": "files/130-131 t Chip Call Finder Fall Short Low  Black-throated Blue.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "low",
+        "createdAt": "2018-05-18T18:54:04.552Z",
+        "updatedAt": "2018-05-18T18:54:04.552Z",
+        "id": 21
+      },
+      {
+        "name": "Wilson's Warbler",
+        "path": "files/130-131 v Chip Call Finder Fall Short Low  Wilson's.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "low",
+        "createdAt": "2018-05-18T18:54:28.807Z",
+        "updatedAt": "2018-05-18T18:54:28.807Z",
+        "id": 22
+      },
+      {
+        "name": "Ovenbird",
+        "path": "files/130-131 w Chip Call Finder Fall Short Low  Ovenbird.mp3",
+        "type": "chip",
+        "direction": "fall",
+        "length": "short",
+        "pitch": "low",
+        "createdAt": "2018-05-18T18:54:58.394Z",
+        "updatedAt": "2018-05-18T18:54:58.394Z",
+        "id": 23
       }
     ]
   },
@@ -138,7 +292,7 @@
   },
   "counters": {
     "calls": {
-      "id": 9
+      "id": 23
     }
   }
 }

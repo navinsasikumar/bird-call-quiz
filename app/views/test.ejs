@@ -4,20 +4,47 @@
     Your browser does not support the audio element.
   </audio>
 </div>
-<button id="show-answer">Show</button>
+<button id="show-spectrogram">Spectrogram</button>
+<button id="show-answer">Answer</button>
 <button id=next-question>Next</button>
+<div id="spectrogram">
+  <img id="picture" src="<%= call.image %>"></img>
+</div>
 <div id="answer">
-  <%= call.name %>
+  <%= call.name %><br>
+  <%= call.direction %> <%= call.length %> <%= call.pitch %>
 </div>
 
 
 <script>
-  $("#show-answer").click(function() {
-    $("#answer").show();
-  });
-  $("#next-question").click(function() {
+  function showNext() {
     $.get('/random', function() {
       window.location = '/random';
     });
+  }
+  function showAnswer() {
+    $("#answer").show();
+  }
+  function showSpectrogram() {
+    $("#spectrogram").show();
+  }
+
+  $("#show-spectrogram").click(function() {
+    showSpectrogram();
+  });
+  $("#show-answer").click(function() {
+    showAnswer();
+  });
+  $("#next-question").click(function() {
+    showNext();
+  });
+  $(document).keypress(function(event) {
+    if (event.which === 32) {
+      showNext();
+    } else if (event.which === 107) {
+      showAnswer();
+    } else if (event.which === 106) {
+      showSpectrogram();
+    }
   });
 </script>
