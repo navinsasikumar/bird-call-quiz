@@ -18,8 +18,13 @@
 
 <script>
   function showNext() {
-    $.get('/random', function() {
-      window.location = '/random';
+    var queryStr = window.location.search;
+    var url = '/random';
+    if (queryStr) {
+      url += queryStr;
+    }
+    $.get(url, function() {
+      window.location = url;
     });
   }
   function showAnswer() {

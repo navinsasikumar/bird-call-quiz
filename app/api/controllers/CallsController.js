@@ -16,17 +16,32 @@ var returnView = function(res, call) {
 
 module.exports = {
   random: function(req, res, next) {
-    Calls.count().exec(function(err, count) {
+    var filter = {};
+    if (req.query.type) {
+      filter.type = req.query.type;
+    }
+    if (req.query.direction) {
+      filter.direction = req.query.direction;
+    }
+    if (req.query.length) {
+      filter.length = req.query.length;
+    }
+    if (req.query.pitch) {
+      filter.pitch = req.query.pitch;
+    }
+
+    Calls.count(filter).exec(function(err, count) {
       if (count === 0) {
         sails.log.error('No calls found');
         return res.status(404).send('No calls found');
       }
-      var id = Math.floor(Math.random() * Math.floor(count)) + 1;
+      var id = Math.floor(Math.random() * Math.floor(count));
 
-      Calls.findOne({id: id}).exec(function(err, call) {
+      Calls.find(filter).exec(function(err, calls) {
         if (err) {
           sails.log.error(err);
         }
+        var call = calls[id];
         if (!call) {
           sails.log.error('No calls found');
           return res.status(404).send('No calls found');
